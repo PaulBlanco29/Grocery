@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grocery Checklist</title>
+</head>
+<body>
+	<h1>Grocery Checklist</h1>
+	<form action="process-form.php" method="GET">
+		<h2>Items:</h2>
+		<ul>
+			<li><input type="checkbox" id="item1" name="items[]" value="Apples"><label for="item1">Milk:</label>
+				<select id="item1-brand" name="item1-brand">
+					<option value="Brand A">Brand A</option>
+					<option value="Brand B">Brand B</option>
+					<option value="Brand C">Brand C</option>
+				</select>
+			</li>
+			<li><input type="checkbox" id="item2" name="items[]" value="Oranges"><label for="item2">Bread:</label>
+				<select id="item2-brand" name="item2-brand">
+					<option value="Brand A">Brand A</option>
+					<option value="Brand B">Brand B</option>
+					<option value="Brand C">Brand C</option>
+				</select>
+			</li>
+			<li><input type="checkbox" id="item3" name="items[]" value="Bananas"><label for="item3">Eggs:</label>
+				<select id="item3-brand" name="item3-brand">
+					<option value="Brand A">Brand A</option>
+					<option value="Brand B">Brand B</option>
+					<option value="Brand C">Brand C</option>
+				</select>
+			</li>
+		</ul>
+		
+		<h2>Other Items:</h2>
+		<ul>
+			<li><input type="checkbox" id="item4" name="items[]" value="Milk"><label for="item4">Butter:</label>
+				<select id="item4-brand" name="item4-brand">
+					<option value="Brand A">Brand A</option>
+					<option value="Brand B">Brand B</option>
+					<option value="Brand C">Brand C</option>
+				</select>
+			</li>
+			<li><input type="checkbox" id="item5" name="items[]" value="Cheese"><label for="item5">Cheese:</label>
+				<select id="item5-brand" name="item5-brand">
+					<option value="Brand A">Brand A</option>
+					<option value="Brand B">Brand B</option>
+					<option value="Brand C">Brand C</option>
+				</select>
+			</li>
+			<li><input type="checkbox" id="item6" name="items[]" value="Yogurt"><label for="item6">Fruits:</label>
+				<select id="item6-brand" name="item6-brand">
+					<option value="Brand A">Brand A</option>
+					<option value="Brand B">Brand B</option>
+					<option value="Brand C">Brand C</option>
+				</select>
+			</li>
+		</ul>
+		
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
